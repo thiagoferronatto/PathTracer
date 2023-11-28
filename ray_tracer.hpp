@@ -225,7 +225,7 @@ public:
           // TODO: randomize two angles, theta and phi, and rotate by them
           // this would simulate a hemisphere around P given by n
           // TODO: do that in a way that doesn't tank performance
-          auto dr{n + vec3{RANDOM, RANDOM, RANDOM}};
+          auto dr{n + vec3{RANDOM - 0.5f, RANDOM - 0.5f, RANDOM - 0.5f}};
           auto tracedIndirect{tracePath(p, dr, scene, nextMaxBounces)};
           if (tracedIndirect != _ambient)
             indirectDiffuse += _indirectDampeningFactor *
