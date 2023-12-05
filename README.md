@@ -9,4 +9,4 @@ The `render` function returns an array of quadruplets of bytes representing RGBA
 
 ## An example of what it can do
 
-![image](https://github.com/thiagoferronatto/path-tracer/assets/31262053/023dbfc2-ead9-4380-855f-928774ea263b)
+![287806732-2390ecab-025c-4a6a-8646-878f5fee590f](https://github.com/thiagoferronatto/PathTracer/assets/31262053/4a9b25ec-e693-49dd-b678-cea2d20e4482)
